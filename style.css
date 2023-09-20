@@ -1,0 +1,34 @@
+.indh{
+    font-family: 'Times New Roman', Times, serif ;
+}
+#total{
+    margin: 125px auto;
+    width: 500px;
+}
+.abttotal{
+    background-color: rgba(0,0,0,0.90);
+    color: white;
+    margin: 150px auto;
+    width: 500px;
+    height: 300px;
+    text-align: justify;
+}
+.bkdis{
+    margin: 150px ;
+    background-color: white;
+    color: black;
+}
+.result{
+    word-wrap: break-word;
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 380px;
+    color: black;
+    block-size: 50px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+

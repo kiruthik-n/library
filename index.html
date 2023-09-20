@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body style="background-color: antiquewhite;">
+
+
+
+
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+<p style="color: white; font-family: 'Times New Roman', Times, serif; font-weight: bolder; font-size: x-large;">LIBRARY &nbsp;  <img src="icon1.png" alt="" width="50px" height="50px"></p>
+
+
+
+
+            <ul class="nav justify-content-center">
+           
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" style="color: white; text-transform: capitalize;">Home</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="color: white;">About</a>
+              </li>
+             
+           
+          </ul>
+</nav>
+
+
+
+
+    </header>
+    <br>
+
+
+
+
+    <center><h2 class="indh">WELCOME !!</h2></center>
+    <div class="result" id="result1">
+        <div id="pop-btn"></div>
+    </div>
+
+    <form id="detailss" >
+
+   
+        <table class="table table-bordered table-dark" id="total">
+            <tr>
+                <td colspan="2" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; text-align: center; font-size: larger;">ADD BOOKS</td>
+            </tr>
+            <tr>
+                <td><b>Enter Book Name</b></td>
+                <td><input type="text" name="name" id="name" required></td>
+            </tr>
+            <tr>
+                <td><b>Enter Book's Author</b></td>
+                <td><input type="text" name="author" id="author" required></td>
+            </tr>
+            <tr>
+                <td><b>Status of Book</b></td>
+                <td><input type="radio" name="stat" id="status" value="read" ><b>Read</b> <br>
+                <input type="radio" name="stat" id="status" value="Not read" ><b>Not Read</b></td>
+            </tr>
+           
+            <tr>
+                <td colspan="2" style="text-align: center;"><button type="submit" class="btn btn-primary" onclick="update()">UPDATE</button> &nbsp; &nbsp;
+                    <button type="button" class="btn btn-primary" onclick="show()">Show Books</button>
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">    <center><button type="button" class="btn btn-primary" onclick="pop()">Delete Last</button> &nbsp; &nbsp; <button type="button" class="btn btn-primary" onclick="shift()">Delete Front</button>&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-primary" onclick="front()">Add in Front</button></center>
+                </td>
+            </tr>
+        </form>
+        </table>
+        
+ 
+
+
+
+
+
+    <script src="add.js"></script>
+
+
+
+
+</body>
+</html>
